@@ -1,0 +1,38 @@
+{
+  "route": [
+    "The Palace Museum",
+    "Shichahai Lakes Area",
+    "Summer Palace",
+    "Temple of Heaven"
+  ],
+  "steps": [
+    {
+      "from": "The Palace Museum",
+      "to": "Shichahai Lakes Area",
+      "public_transport_route": "Tian'anmen West Station (Line 1) → Nanpu Station (Line 1→Line 8) → Shichahai Station (Line 8)",
+      "distance_km": 2.0,
+      "time_min": 15,
+      "taxi_price_yuan": 13.0
+    },
+    {
+      "from": "Shichahai Lakes Area",
+      "to": "Summer Palace",
+      "public_transport_route": "Shichahai Station (Line 8) → Nanpu Station (Line 8→Line 1) → Xidan Station (Line 1→Line 4) → Summer Palace Station (Line 4)",
+      "distance_km": 14.3,
+      "time_min": 45,
+      "taxi_price_yuan": 60.0
+    },
+    {
+      "from": "Summer Palace",
+      "to": "Temple of Heaven",
+      "public_transport_route": "Summer Palace Station (Line 4) → Xidan Station (Line 4→Line 1) → Dongdan Station (Line 1→Line 5) → Temple of Heaven East Gate Station (Line 5)",
+      "distance_km": 20.0,
+      "time_min": 50,
+      "taxi_price_yuan": 55.0
+    }
+  ],
+  "total_time_min": 110.0,
+  "total_distance_km": 36.3,
+  "total_price_yuan": 128.0,
+  "success": true
+}
